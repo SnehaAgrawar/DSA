@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class Selection {
 
     public static void selectionSort(int arr[]) {
