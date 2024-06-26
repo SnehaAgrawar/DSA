@@ -4,7 +4,7 @@ import basiccircular.Queue;
 
 public class Driver {
 	public static void main(String[] args) {
-		Queue cq = new Queue(5);
+		CircularQueue cq = new CircularQueue(5);
 		System.out.println(cq.insert(10));
 		System.out.println(cq.insert(20));
 		System.out.println(cq.insert(30));
@@ -19,6 +19,9 @@ public class Driver {
 		System.out.println(cq.delete());
 		System.out.println(cq.insert(60));
 		System.out.println(cq.insert(70));
+		
+		cq.display();
+		
 	}
 		
 }
